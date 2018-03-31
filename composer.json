@@ -1,0 +1,29 @@
+{
+    "name": "Kuldeep/EncryptionClient",
+    "description": "just test",
+    "type": "library",
+    "require": {
+        "php" : ">=5.5.0",
+        "ext-openssl": "^0.0.0"
+    },
+    "require-dev": {
+       "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuldeep\\EncryptionClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kuldeep\\EncryptionClient\\Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kuldeep1984",
+            "email": "kuldeep999p@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
